@@ -209,6 +209,7 @@ if check == False:
     os.mkdir(path)
 filename1 = (path + '/' + event2find + '_' + comp + '.mseed')
 st_new1.write(filename1, format = 'MSEED')
+st_new1.write(filename1, format = 'SAC')
 
 # In the end of the code there will be a warning, but this is not of great importance, as the *.mseed* files are found to be created and saved consistently approprietly.
 
